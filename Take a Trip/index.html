@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Explore Your Dream Destination | Take a Trip</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__logo"><a href="#">Take a Trip</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#trending">Hot Sellers</a></li>
+          <li class="link"><a href="#destination">Destinations</a></li>
+          <li class="link"><a href="#guide">Guide</a></li>
+          <li class="link"><a href="#client">Client</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <h1>Make Memories All Over The World</h1>
+        <div class="header__form">
+          <form action="/">
+            <div class="input__group">
+              <label for="destination">Add Location</label>
+              <input type="text" placeholder="Country, ZIP" />
+            </div>
+            <div class="input__group">
+              <label for="checkIn">Check In</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            <div class="input__group">
+              <label for="CheckOut">Check Out</label>
+              <input type="text" placeholder="Choose a date" />
+            </div>
+            <div class="input__group">
+              <label for="guests">Number of Members</label>
+              <input type="text" placeholder="Number of guests" />
+            </div>
+            
+          </form>
+          <button class="btn">CHECK AVAILABILITY</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container trending__container" id="trending">
+      <div class="section__header">
+        <h2 class="section__title">Hot Sellers</h2>
+      </div>
+      <div class="trending__grid">
+        <div class="trending__card">
+          <img src="assets/Trending1.jpg" alt="trending" />
+          <h1>Adventour</h1>
+          <p>Adventure Seekere | Mountain Expeditions</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>$1000.25</h3>
+              <p>*Price varies</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 7 days
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+        </div>
+        <div class="trending__card">
+          <img src="assets/Trending2.jpg" alt="trending" />
+          <h1>The Royal Route</h1>
+          <p>Ultimate Journey | Luxury Escapes</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>$450.72</h3>
+              <p>*Price varies</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 3 days
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+        </div>
+        <div class="trending__card">
+          <img src="assets/Trending3.jpg" alt="trending" />
+          <h1>Green Escapes</h1>
+          <p>Discovery Tours | Exotic Travels</p>
+          <div class="trending__details">
+            <div class="price">
+              <p>From</p>
+              <h3>$745.09</h3>
+              <p>*Price varies</p>
+            </div>
+          </div>
+          <h5>
+            <span><i class="ri-time-line"></i></span> 6 days
+          </h5>
+          <p>
+            <span><i class="ri-check-line"></i></span> Free Cancellation
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container destination__container" id="destination">
+      <div class="section__header">
+        <h2 class="section__title">Popular Destinations</h2>
+      </div>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/Destination Bali.jpg" alt="destination" />
+          <div class="badge">  
+            <span><i class="ri-star-fill"></i></span>
+            4.7
+          </div>
+          <div class="destination__details">
+            <h4>Bali</h4>
+            <p>Paradise</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/Destination Grece.jpg" alt="destination" />
+          <div class="badge">
+            <span><i class="ri-star-fill"></i></span>
+            4.5
+          </div>
+          <div class="destination__details">
+            <h4>Greece</h4>
+            <p>White Dome</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/Destination Maldives.jpg" alt="destination" />
+          <div class="badge">
+            <span><i class="ri-star-fill"></i></span>
+            4.3
+          </div>
+          <div class="destination__details">
+            <h4>Maldives</h4>
+            <p>Marine Life</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/Destination Norway.jpg" alt="destination" />
+          <div class="badge">
+            <span><i class="ri-star-fill"></i></span>
+            4.8
+          </div>
+          <div class="destination__details">
+            <h4>Norway</h4>
+            <p>White Mountains</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/Destination Paris.jpg" alt="destination" />
+          <div class="badge">
+            <span><i class="ri-star-fill"></i></span>
+            4.2
+          </div>
+          <div class="destination__details">
+            <h4>Paris</h4>
+            <p>City of Love</p>
+          </div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/Destination Thailand.jpg" alt="destination" />
+          <div class="badge">
+            <span><i class="ri-star-fill"></i></span>
+            4.7
+          </div>
+          <div class="destination__details">
+            <h4>Thailand</h4>
+            <p>Islands</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container guide__container" id="guide">
+      <div class="section__header">
+        <h2 class="section__title">Tour Guide Experts</h2>
+      </div>
+      <div class="guide__grid">
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="assets/Guide1.jpg" alt="guide" />
+            <div class="guide__socials">
+              <div>
+                <span>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-instagram-line"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </span>
+              </div>
+              <button class="btn">Follow me</button>
+            </div>
+          </div>
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>Skyla Whisperwind</h4>
+              <p>City Whisperer</p>
+            </div>
+            <p>
+              Delve into the hidden alleys and vibrant markets with Skyla, who unearths local legends and unveils the city's soul through its street art and secret speakeasies.
+            </p>
+          </div>
+        </div>
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="assets/Guide2.jpg" alt="guide" />
+            <div class="guide__socials">
+              <div>
+                <span>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-instagram-line"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </span>
+              </div>
+              <button class="btn">Follow me</button>
+            </div>
+          </div>
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>Orion Grey</h4>
+              <p>Forest Pathfinder</p>
+            </div>
+            <p>
+              Embrace the wilderness with Orion, a master tracker and naturalist. He'll guide you through ancient woodlands, teach you to identify medicinal plants, and share tales of mythical creatures that roam the trails.
+            </p>
+          </div>
+        </div>
+        <div class="guide__card">
+          <div class="guide__image">
+            <img src="assets/Guide3.jpg" alt="guide" />
+            <div class="guide__socials">
+              <div>
+                <span>
+                  <a href="#"><i class="ri-linkedin-fill"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-instagram-line"></i></a>
+                </span>
+                <span>
+                  <a href="#"><i class="ri-facebook-fill"></i></a>
+                </span>
+              </div>
+              <button class="btn">Follow me</button>
+            </div>
+          </div>
+          <div class="guide__content">
+            <div class="guide__details">
+              <h4>Jack Brown</h4>
+              <p>Ocean Whisperer</p>
+            </div>
+            <p>
+              Dive into the underwater world with Coral, a marine biologist and freediving champion. From coral reefs teeming with life to shipwrecks shrouded in mystery, she'll reveal the ocean's secrets with infectious enthusiasm.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container client__container" id="client">
+      <div class="section__header">
+        <h2 class="section__title">Clients Feedback</h2>
+      </div>
+      <div class="client__grid">
+        <div class="client__card">
+          <div class="client__card__header">
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-half-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+          </div>
+          <div class="client__card__footer">
+            <img src="assets/Client1.jpg" alt="client" />
+            <div class="client__details">
+              <h4>Thomas Lee</h4>
+              <p>Businessman</p>
+            </div>
+          </div>
+          <p>
+            "Skyla's City Whisperer tour totally revitalized my creativity. Walking through hidden art galleries and secret rooftops sparked new ideas for my next project. Highly recommend for city escapes with a twist!"
+          </p>
+        </div>
+        <div class="client__card">
+          <div class="client__card__header">
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+            </div>
+          </div>
+          <div class="client__card__footer">
+            <img src="assets/Client2.jpg" alt="client" />
+            <div class="client__details">
+              <h4>Chloe Rodriguez</h4>
+              <p>Content Writer</p>
+            </div>
+          </div>
+          <p>
+            "Jack Brown's Ocean Whisperer tour was magical! Swimming with dolphins and exploring coral reefs is an experience I'll never forget. Her passion for the ocean is contagious, and it inspired me to write a whole series about ocean conservation."
+          </p>
+        </div>
+        <div class="client__card">
+          <div class="client__card__header">
+            <div class="ratings">
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-fill"></i></span>
+              <span><i class="ri-star-line"></i></span>
+            </div>
+          </div>
+          <div class="client__card__footer">
+            <img src="assets/Client3.jpg" alt="client" />
+            <div class="client__details">
+              <h4>Adrian Smith</h4>
+              <p>Vlogger</p>
+            </div>
+          </div>
+          <p>
+            "Take a Trip's Forest Pathfinder tour with Orion was incredible! I captured the most breathtaking footage of hidden waterfalls and even learned to identify edible berries. My viewers are loving it!"
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe">
+      <div class="section__container subscribe__container">
+        <h4>Subscribe and Get Notified</h4>
+        <form action="/">
+          <input type="text" placeholder="Please enter your email address" />
+          <button class="btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <h5>Take a Trip</h5>
+          <p>
+            Forget the ordinary, your escape awaits! Take a Trip is your portal to adventures that ignite your soul. Dive into hidden jungles, scale majestic peaks, or sail turquoise seas – where will your wanderlust lead you today? Let's craft the journey that redefines your world.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <a href="#home">Home</a>
+          <a href="#destination">Destinations</a>
+          <a href="#subscribe">Write to Us</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Vacation Package</a>
+          <a href="#">List of Tours</a>
+          <a href="#">Gallery</a>
+          <a href="#">Travel on a Budget</a>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <div class="footer__socials">
+            <span>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </span>
+            <span>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
